@@ -1,0 +1,34 @@
+<html>
+
+<head>
+</head>
+
+<body>
+
+    <input type="text" id="taskName">
+    <button Onclick="validate()">
+        Add Task
+    </button><br/>
+
+    <div id="percentage">
+        <span>Pending Tasks - </span>
+        <span style="max-width: 5;" id="pendingPercent"></span><br/>
+        <span>Completed Tasks - </span>
+        <span style="max-width: 5;" id="completedPercent"></span><br/>
+    </div><br/>
+    <div id="pending">
+        <span><font size="4"><b>Pending Tasks</b></font></span>
+		<div id="pendingtasks">
+		</div>
+    </div><br/>
+    <div id="completed">
+        <span><font size="4"><b>Completed Tasks</b></font></span>
+		<div id="completedtasks">
+		</div>
+    </div>
+
+    <script src="task.js"></script>
+
+</body>
+
+</html>
